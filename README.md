@@ -46,9 +46,7 @@ python main.py
 
 Accède à la version HTML/JavaScript (100% navigateur) :
 
-👉 [Jouer en ligne sur GitHub Pages](https://<ton-utilisateur>.github.io/Tetris_game)
-
-> Remplace `<ton-utilisateur>` par ton pseudo GitHub.
+👉 [Jouer en ligne sur GitHub Pages](https://audricumons.github.io/Tetris-game)
 
 ---
 
@@ -87,10 +85,10 @@ Voir `requirements.txt`.
 
 ## 🔊 Crédits sons
 
-Sons libres de droits ou générés pour test. Tu peux les remplacer dans le dossier `assets/`.
+Sons libres de droits ou générés pour test. Dans le dossier `assets/`.
 
 ---
 
 ## 📌 Auteur
 
-Projet réalisé par [Ton Nom ou Pseudo]
+Projet réalisé par AudricUMONS

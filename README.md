@@ -1,37 +1,54 @@
-# 🎮 Tetris Python (Pygame)
+# 🎮 Tetris – Version Python & Web
 
-Ce projet est une version complète, optimisée et modulaire du jeu **Tetris**, développée avec **Python** et **Pygame**.
+Ce projet contient deux versions du jeu **Tetris** :
+
+1. 🐍 Une version **Python/Pygame** optimisée et modulaire
+2. 🌐 Une version **HTML/JavaScript** jouable en ligne via GitHub Pages
 
 ---
 
 ## 📁 Structure du projet
 
 ```
-tetris_game/
-├── main.py                    # Boucle principale (affichage + clavier)
-├── requirements.txt          # Dépendances du projet
-├── README.md                 # Ce fichier
-├── assets/                   # Sons du jeu (WAV)
+Tetris_game/
+├── main.py                    # Lancement de la version Python
+├── requirements.txt           # Dépendances Python
+├── README.md                  # Ce fichier
+├── assets/                    # Sons du jeu (WAV)
 │   ├── rotate.wav
 │   ├── place.wav
 │   ├── clear.wav
 │   └── gameover.wav
-└── tetris/                   # Logique interne du jeu
-    ├── __init__.py
-    ├── core.py               # Classes Tetris, Piece
-    ├── settings.py           # Constantes globales
-    └── assets.py             # Chargement centralisé des sons
+├── tetris/                    # Logique interne du Tetris Python
+│   ├── __init__.py
+│   ├── core.py
+│   ├── settings.py
+│   └── assets.py
+└── Tetris_online/             # Version HTML/JS du jeu
+    ├── index.html             # Point d'entrée pour GitHub Pages
+    ├── style.css              # Feuille de style
+    └── tetris.js              # Logique JavaScript
 ```
 
 ---
 
-## ▶️ Lancer le jeu
+## ▶️ Lancer la version Python (Pygame)
 
 ```bash
-cd tetris_game
+cd Tetris_game
 pip install -r requirements.txt
 python main.py
 ```
+
+---
+
+## 🌐 Jouer en ligne (version Web)
+
+Accède à la version HTML/JavaScript (100% navigateur) :
+
+👉 [Jouer en ligne sur GitHub Pages](https://<ton-utilisateur>.github.io/Tetris_game)
+
+> Remplace `<ton-utilisateur>` par ton pseudo GitHub.
 
 ---
 
@@ -50,15 +67,16 @@ python main.py
 
 ## ✨ Fonctionnalités
 
-- Ghost piece (ombre de la pièce)
-- Animation de suppression de lignes (clignotement)
-- Sons personnalisés (rotation, placement, suppression, game over)
-- Interface claire avec panneau latéral (score, niveau, lignes, pièce suivante)
-- Structure modulaire (séparation logique / interface)
+- ✅ Ghost piece (ombre de la pièce)
+- ✅ Animation de suppression de lignes (fondu avec délai)
+- ✅ Sons intégrés (rotation, placement, suppression, game over)
+- ✅ UI claire avec score, niveau, lignes, pièce suivante
+- ✅ Contrôles clavier fluides
+- ✅ Version web jouable sans installation
 
 ---
 
-## 📦 Dépendances
+## 📦 Dépendances (pour Python)
 
 - Python ≥ 3.8
 - pygame
@@ -69,4 +87,10 @@ Voir `requirements.txt`.
 
 ## 🔊 Crédits sons
 
-Sons libres de droits ou générés pour test. Tu peux les remplacer par tes propres effets personnalisés dans le dossier `assets/`.
+Sons libres de droits ou générés pour test. Tu peux les remplacer dans le dossier `assets/`.
+
+---
+
+## 📌 Auteur
+
+Projet réalisé par [Ton Nom ou Pseudo]
